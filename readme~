@@ -1,0 +1,13 @@
+﻿This is the MATLAB code for "RMI-SVM", which jointly optimizes the bag-level label and instance-level label for Multiple Instance Learning problem. Please refer to "Relaxed Multiple-Instance SVM With Application to Object Discovery" for details and discussions. Note that the results can be different for every running since we adopt the Stochastic Gradient Descent algorithm to solve the problem.
+
+Should you have any questions, please do not hesitate to contact Zhuotun Zhu at zhuotun@gmail.com.
+
+If you find this code useful for your research, please consider citing this paper via the .bibtex.
+
+@InProceedings{Wang_2015_ICCV,
+author = {Wang, Xinggang and Zhu, Zhuotun and Yao, Cong and Bai, Xiang},
+title = {Relaxed Multiple-Instance SVM With Application to Object Discovery},
+journal = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {June},
+year = {2015}
+}
