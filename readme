@@ -4,10 +4,10 @@ Should you have any questions, please do not hesitate to contact Zhuotun Zhu at 
 
 If you find this code useful for your research, please consider citing this paper via the .bibtex.
 
-@InProceedings{Wang_2015_ICCV,
-author = {Wang, Xinggang and Zhu, Zhuotun and Yao, Cong and Bai, Xiang},
-title = {Relaxed Multiple-Instance SVM With Application to Object Discovery},
-journal = {The IEEE International Conference on Computer Vision (ICCV)},
-month = {June},
-year = {2015}
+@inproceedings{wang2015relaxed,
+  title={Relaxed Multiple-Instance SVM with Application to Object Discovery},
+  author={Wang, Xinggang and Zhu, Zhuotun and Yao, Cong and Bai, Xiang},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={1224--1232},
+  year={2015}
 }
