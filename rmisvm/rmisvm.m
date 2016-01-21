@@ -2,7 +2,7 @@ function [w,b]=rmisvm(fbag,Y,options)
 % where f is a set of bags of intances
 % MIN_w lambda/2 |w|^2 + 1/N SUM_i LOSS(w, X(:,i), y(i))+beta*(-1)*SUM_i
 % Yi*logPi+(1-Yi)log(1-Pi)
-%  where LOSS(w,x,y) = MAX(0, 1 - y w'x) is the hinge loss
+%  where LOSS(w,x,y) = MAX(0, 1 - y w'x) is the hinge loss while we replace y with p since y is not given in mil problem.
 
 d=size(fbag{1,1},1);% feature dimension
 N=size(fbag,2);
